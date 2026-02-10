@@ -4,20 +4,21 @@
 export const config = {
   // Personal Information
   personal: {
-    name: 'Your Name',
+    name: 'Patrick Licuanan',
     title: 'Full Stack Developer',
     subtitle: 'Creative Problem Solver | Tech Enthusiast',
     about: {
       paragraph1: "I'm a passionate developer with expertise in building modern web applications. With a strong foundation in both frontend and backend technologies, I create elegant solutions to complex problems.",
-      paragraph2: "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community."
+      paragraph2: "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, sharing knowledge with the developer community or mostly playing Online Games."
     }
   },
 
   // Social Links
   social: {
-    github: '#',
+    github: 'https://github.com/AinzCode',
     linkedin: '#',
     twitter: '#'
+
   },
 
   // Skills Data
@@ -26,10 +27,10 @@ export const config = {
       title: 'Frontend',
       icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4',
       skills: [
-        '• HTML5, CSS3, JavaScript/TypeScript',
+        '• HTML5, CSS3, TypeScript',
         '• React, Vue, Angular',
         '• Tailwind CSS, Bootstrap',
-        '• Responsive Design'
+        '• Responsive Design and Professional Website'
       ]
     },
     {
@@ -37,7 +38,7 @@ export const config = {
       icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01',
       skills: [
         '• Node.js, Express',
-        '• Python, Django, Flask',
+        '• Python, Django, Supabase',
         '• RESTful APIs, GraphQL',
         '• Database Design'
       ]
@@ -57,10 +58,10 @@ export const config = {
   // Projects Data
   projects: [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.',
-      tags: ['React', 'Node.js', 'MongoDB'],
-      demoUrl: '#',
+      title: 'The Pinesva: Recruitment Agency / Employment Agency',
+      description: 'A full-featured Job Recruitment Agency for Virtual Assistants, Admin Dashboard, Endorsement and Professional looking web desugb.',
+      tags: ['React', 'Node.js', 'SupaBase'],
+      demoUrl: 'https://www.thepinesva.com',
       githubUrl: '#',
       gradient: 'from-primary-400 to-primary-600',
       icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
