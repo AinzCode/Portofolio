@@ -1,6 +1,3 @@
-// Portfolio Configuration File
-// Edit this file to customize your portfolio content
-
 export const config = {
   // Personal Information
   personal: {
