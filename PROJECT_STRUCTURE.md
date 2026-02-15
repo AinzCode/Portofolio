@@ -60,9 +60,9 @@ Portofolio/
 ```typescript
 export const config = {
   personal: {
-    name: 'John Doe',              // Your name
-    title: 'Frontend Developer',   // Your job title
-    subtitle: 'UI/UX Enthusiast',  // Your tagline
+    name: 'Patrick Licuanan',              // Your name
+    title: 'WEB Developer',   // Your job title
+    subtitle: 'Car Enthusiast',  // Your tagline
   },
   social: {
     github: 'https://github.com/yourusername',

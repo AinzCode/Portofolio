@@ -2,36 +2,169 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom scrollbar */
+/* Root variables for light/dark themes */
+:root {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f5f5f5;
+  --color-text-primary: #1f2937;
+  --color-text-secondary: #6b7280;
+  --color-accent: #dc2626;
+}
+
+.dark {
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #171717;
+  --color-text-primary: #f9fafb;
+  --color-text-secondary: #d1d5db;
+  --color-accent: #ef4444;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Sections full viewport height */
+section {
+  min-height: 100vh;
+}
+
+/* Light mode styles */
+.light {
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+.light section {
+  background-color: #ffffff;
+}
+
+/* Custom scrollbar with red theme */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #f3f4f6;
+  background-color: var(--color-bg-secondary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0ea5e9;
+  background: linear-gradient(180deg, #dc2626 0%, #7f1d1d 100%);
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #0284c7;
+  background: linear-gradient(180deg, #ef4444 0%, #991b1b 100%);
 }
 
 /* Dark theme scrollbar */
 body {
   scrollbar-width: thin;
-  scrollbar-color: #0ea5e9 #1f2937;
+  scrollbar-color: #dc2626 var(--color-bg-secondary);
 }
 
-::-webkit-scrollbar-track {
-  background-color: #1f2937;
-}
-
-/* Additional custom styles */
+/* Smooth transitions */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #000000;
+  color: #ffffff;
 }
+
+/* Custom utility classes with red theme */
+@layer utilities {
+  .text-gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-red-600 to-red-700;
+  }
+  
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-red-600 via-black to-red-900;
+  }
+  
+  .shadow-glow {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.4);
+  }
+  
+  .shadow-glow-lg {
+    box-shadow: 0 0 40px rgba(220, 38, 38, 0.6);
+  }
+}
+
+/* Animation for scroll reveal */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
+
+[data-aos="fade-up"].aos-animate {
+  transform: translateY(0);
+}
+
+[data-aos="fade-down"].aos-animate {
+  transform: translateY(0);
+}
+
+[data-aos="zoom-in"].aos-animate {
+  transform: scale(1);
+}
+
+[data-aos="fade-up"] {
+  transform: translateY(40px);
+}
+
+[data-aos="fade-down"] {
+  transform: translateY(-40px);
+}
+
+[data-aos="zoom-in"] {
+  transform: scale(0.9);
+}
+
+/* Pixel perfect responsive design */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Red accent animations */
+@keyframes redPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(220, 38, 38, 0.8);
+  }
+}
+
