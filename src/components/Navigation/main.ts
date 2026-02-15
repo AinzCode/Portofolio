@@ -17,9 +17,6 @@ export function createNavigation(): string {
                     <a href="#skills" class="${styles.navLink}">Skills</a>
                     <a href="#projects" class="${styles.navLink}">Projects</a>
                     <a href="#contact" class="${styles.navLink}">Contact</a>
-                    <button id="dark-mode-toggle" class="${styles.darkModeButton}" title="Toggle Dark Mode">
-                        <i class="fas fa-moon"></i>
-                    </button>
                 </div>
 
                 <!-- Mobile Menu Button -->
@@ -38,9 +35,6 @@ export function createNavigation(): string {
                 <a href="#skills" class="${styles.mobileLink}">Skills</a>
                 <a href="#projects" class="${styles.mobileLink}">Projects</a>
                 <a href="#contact" class="${styles.mobileLink}">Contact</a>
-                <button id="dark-mode-toggle-mobile" class="${styles.darkModeButtonMobile}" title="Toggle Dark Mode">
-                    <i class="fas fa-moon"></i> <span>Toggle Theme</span>
-                </button>
             </div>
         </div>
     </nav>

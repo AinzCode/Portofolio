@@ -47,6 +47,7 @@ export default {
         'gradient-x': 'gradient-x 3s ease infinite',
         'float': 'float 6s ease-in-out infinite',
         'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+        'marquee': 'marquee 30s linear infinite',
       },
       keyframes: {
         fadeIn: {
@@ -84,6 +85,10 @@ export default {
         pulseGlow: {
           '0%, 100%': { opacity: '1', boxShadow: '0 0 20px rgba(220, 38, 38, 0.4)' },
           '50%': { opacity: '0.8', boxShadow: '0 0 40px rgba(220, 38, 38, 0.8)' },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
       backgroundSize: {

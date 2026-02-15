@@ -94,6 +94,10 @@ body {
   .shadow-glow-lg {
     box-shadow: 0 0 40px rgba(220, 38, 38, 0.6);
   }
+  
+  .pause-marquee:hover {
+    animation-play-state: paused;
+  }
 }
 
 /* Animation for scroll reveal */
