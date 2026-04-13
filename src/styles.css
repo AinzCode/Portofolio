@@ -77,6 +77,12 @@ body {
   color: #ffffff;
 }
 
+body.light {
+  background-color: #ffffff;
+  color: #1f2937;
+  scrollbar-color: #dc2626 #f5f5f5;
+}
+
 /* Custom utility classes with red theme */
 @layer utilities {
   .text-gradient {
