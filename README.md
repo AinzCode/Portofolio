@@ -15,6 +15,8 @@ Modern portfolio website with red and black theme.
 - Contact form
 - Mobile navigation menu
 
+
+
 ## Functions
 
 - Auto-scroll snaps to each section

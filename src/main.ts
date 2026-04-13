@@ -6,14 +6,12 @@ import 'lenis/dist/lenis.css';
 import {
   createNavigation,
   createHero,
-  createAbout,
-  createEducation,
-  createContact,
+  createMainContent,
   createFooter,
   createScrollProgress,
   initializeNavigation,
   initializeHero,
-  initializeContact,
+  initializeMainContent,
   initializeScrollProgress
 } from './components';
 
@@ -35,9 +33,7 @@ function buildPage(): void {
       ${createScrollProgress()}
       ${createNavigation()}
       ${createHero()}
-      ${createAbout()}
-      ${createEducation()}
-      ${createContact()}
+      ${createMainContent()}
       ${createFooter()}
     `;
   }
@@ -65,7 +61,7 @@ function initializeApp(): void {
   // Initialize component-specific features
   initializeNavigation();
   initializeHero();
-  initializeContact();
+  initializeMainContent();
   initializeScrollProgress();
   
   // Initialize utilities

@@ -1,6 +1,6 @@
 // Contact Component - Tailwind CSS Classes
 export const contactStyles = {
-  section: 'py-20 bg-gray-950 min-h-screen flex items-center',
+  section: 'py-20 bg-gradient-to-br from-red-900 via-black to-red-900 min-h-screen flex items-center',
   container: 'container mx-auto px-6',
   gridLayout: 'grid lg:grid-cols-2 gap-8 items-center',
   leftSide: 'flex items-center justify-center',

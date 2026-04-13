@@ -1,15 +1,16 @@
-// Projects Component - Tailwind CSS Classes
+// Projects Component - Styles
 export const projectsStyles = {
-  section: 'py-20 bg-black min-h-screen flex items-center',
+  section: 'py-20 bg-gradient-to-br from-black to-red-950 min-h-screen flex items-center',
   container: 'container mx-auto px-6',
   title: 'text-4xl font-bold text-center mb-12 text-gray-100',
   titleAccent: 'text-red-500',
-  grid: 'grid md:grid-cols-2 lg:grid-cols-3 gap-8',
-  card: 'bg-gray-900 border border-red-900/30 rounded-lg overflow-hidden shadow-lg shadow-red-900/20 hover:shadow-red-500/30 hover:border-red-700/50 transition-all duration-300 hover:-translate-y-2',
-  imageContainer: 'h-48 bg-gradient-to-br from-red-950 to-black flex items-center justify-center text-6xl text-red-500',
-  content: 'p-6',
-  projectTitle: 'text-xl font-bold mb-2 text-gray-100',
-  description: 'text-gray-400 mb-4',
-  tagContainer: 'flex flex-wrap gap-2',
-  tag: 'px-3 py-1 bg-red-500/20 text-red-400 border border-red-800/50 rounded-full text-sm'
+  timeline: 'max-w-3xl mx-auto relative',
+  timelineItem: 'relative pl-8 pb-12 last:pb-0 border-l-2 border-red-900/30 hover:border-red-500/50 transition-colors duration-300 data-aos="fade-up"',
+  timelineDot: 'absolute -left-[9px] top-0 w-4 h-4 bg-red-600 rounded-full border-4 border-gray-950 hover:bg-red-400 transition-all duration-300 shadow-lg shadow-red-500/50',
+  timelineContent: 'ml-4',
+  year: 'inline-block px-3 py-1 bg-red-600/20 text-red-400 rounded-full text-sm font-medium mb-2',
+  degree: 'text-xl font-bold text-gray-100 mb-1',
+  school: 'text-red-500 font-medium mb-2',
+  description: 'text-gray-400 text-sm',
+  projectLink: 'text-gray-100 hover:text-red-400 transition-colors duration-300 underline'
 };
