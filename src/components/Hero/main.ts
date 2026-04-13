@@ -86,7 +86,7 @@ export function createHero(): string {
         <div class="${styles.container}">
             <div class="${styles.contentWrapper}">
                 <div class="${styles.imageColumn}" data-aos="fade-right" data-aos-delay="100">
-                    <img src="/Public/Profile.jpg" alt="Profile" class="${styles.profileImage}" />
+                    <img src="/public/profile.jpg" alt="Profile" class="${styles.profileImage}" />
                 </div>
                 <div class="${styles.textColumn}" data-aos="fade-left" data-aos-delay="200">
                     <h1 class="${styles.name}" data-aos="fade-up" data-aos-delay="300">
