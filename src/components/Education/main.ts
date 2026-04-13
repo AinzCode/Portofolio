@@ -73,7 +73,7 @@ export function createEducation(): string {
                     <div class="${styles.timelineItem}">
                         <div class="${styles.timelineDot}"></div>
                         <div class="${styles.timelineContent}">
-                            <div class="${styles.year}">2023</div>
+                            <div class="${styles.year}">2022</div>
                             <h3 class="${styles.degree}">National Certificate II (NC II)</h3>
                             <p class="${styles.school}">Computer Systems Servicing</p>
                             <p class="${styles.description}">A TESDA-certified program in the Philippines that validates proficiency in installing, configuring, diagnosing, and maintaining computer systems and networks. It prepares individuals for roles such as computer technicians or IT support staff by covering hardware assembly, software installation, and network setup.</p>
