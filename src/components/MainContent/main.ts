@@ -69,10 +69,10 @@ export function createMainContent(): string {
                     <div class="${styles.timelineItem}">
                         <div class="${styles.timelineDot}"></div>
                         <div class="${styles.timelineContent}">
-                            <div class="${styles.year}">2021 - Present</div>
-                            <h3 class="${styles.degree}">Bachelor OF Science in Information Technology</h3>
-                            <p class="${styles.school}">University of the Cordilleras</p>
-                            <p class="${styles.description}">Studied software development, algorithms, and data structures.</p>
+                            <div class="${styles.year}">2018 - 2020</div>
+                            <h3 class="${styles.degree}">High School Graduate</h3>
+                            <p class="${styles.school}">Juan G. Macaraeg National High School</p>
+                            <p class="${styles.description}">Graduating with honors.</p>
                         </div>
                     </div>
 
@@ -91,10 +91,10 @@ export function createMainContent(): string {
                     <div class="${styles.timelineItem}">
                         <div class="${styles.timelineDot}"></div>
                         <div class="${styles.timelineContent}">
-                            <div class="${styles.year}">2023</div>
-                            <h3 class="${styles.degree}">National Certificate II (NC II)</h3>
-                            <p class="${styles.school}">Computer Systems Servicing</p>
-                            <p class="${styles.description}">A TESDA-certified program in the Philippines that validates proficiency in installing, configuring, diagnosing, and maintaining computer systems and networks.</p>
+                            <div class="${styles.year}">2021 - Present</div>
+                            <h3 class="${styles.degree}">Bachelor OF Science in Information Technology</h3>
+                            <p class="${styles.school}">University of the Cordilleras</p>
+                            <p class="${styles.description}">Studied software development, algorithms, and data structures.</p>
                         </div>
                     </div>
 
@@ -102,10 +102,10 @@ export function createMainContent(): string {
                     <div class="${styles.timelineItem}">
                         <div class="${styles.timelineDot}"></div>
                         <div class="${styles.timelineContent}">
-                            <div class="${styles.year}">2018 - 2020</div>
-                            <h3 class="${styles.degree}">High School Graduate</h3>
-                            <p class="${styles.school}">Juan G. Macaraeg National High School</p>
-                            <p class="${styles.description}">Graduating with honors.</p>
+                            <div class="${styles.year}">2023</div>
+                            <h3 class="${styles.degree}">National Certificate II (NC II)</h3>
+                            <p class="${styles.school}">Computer Systems Servicing</p>
+                            <p class="${styles.description}">A TESDA-certified program in the Philippines that validates proficiency in installing, configuring, diagnosing, and maintaining computer systems and networks.</p>
                         </div>
                     </div>
                 </div>
